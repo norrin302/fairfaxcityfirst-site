@@ -182,6 +182,16 @@
             margin-bottom: 1rem;
         }
 
+        .incumbent-badge {
+            display: inline-block;
+            background: var(--red);
+            color: var(--white);
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+        }
+
         .candidate-card p {
             color: var(--gray);
             margin-bottom: 1rem;
@@ -364,7 +374,7 @@
         <div class="candidate-grid">
             <article class="candidate-card">
                 <h3>Stacy Hall</h3>
-                <p class="role">Incumbent — For Fairfax City Council</p>
+                <p class="role"><span class="incumbent-badge">Incumbent</span> — For Fairfax City Council</p>
                 <p>I believe good local government starts with listening, asking the hard questions, and making thoughtful decisions based on facts, data, and what is best for our community.</p>
                 <div class="candidate-values">
                     <span>Independent</span>
@@ -376,8 +386,13 @@
 
             <article class="candidate-card">
                 <h3>Rachel McQuillen</h3>
-                <p class="role">Incumbent — For Fairfax City Council</p>
-                <p>Dedicated community voice focused on transparency, smart growth, and city services.</p>
+                <p class="role"><span class="incumbent-badge">Incumbent</span> — For Fairfax City Council</p>
+                <p>We can invest in our community and protect what makes Fairfax City special, but we must do so in a way that is affordable, sustainable, and responsible for our residents.</p>
+                <div class="candidate-values">
+                    <span>Affordability</span>
+                    <span>Economic Vitality</span>
+                    <span>Strong Schools</span>
+                </div>
                 <a href="https://rachelforfairfax.com" class="btn" target="_blank" rel="noopener noreferrer">Visit Site <span aria-hidden="true">→</span></a>
             </article>
 
